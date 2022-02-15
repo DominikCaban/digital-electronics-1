@@ -1,2 +1,2 @@
 # digital-electronics-1
-VHDL
+VHDL course at Brno University of Technology

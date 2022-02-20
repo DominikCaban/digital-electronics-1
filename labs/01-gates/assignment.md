@@ -1,7 +1,6 @@
 # Lab 1: Dominik Caban
 
 ### De Morgan's laws
-### TestRoamingRomaing 
 
 1. Equations of all three versions of logic function f(c,b,a):
 

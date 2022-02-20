@@ -9,6 +9,13 @@
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
+
+\begin{align*}
+    f(c,b,a)_{\textup{ORG}} =&~ \overline{b}\,a + \overline{c}\,\overline{b}\\
+    f(c,b,a)_{\textup{NAND}} =&\\
+    f(c,b,a)_{\textup{NOR}} =&\\
+\end{align*}
+
 ```vhdl
 architecture dataflow of demorgan is
 begin

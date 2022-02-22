@@ -1,4 +1,4 @@
-# Lab 2: DOMINIK CABAN
+# Lab 2: Dominik Caban
 
 ### 2-bit comparator
 

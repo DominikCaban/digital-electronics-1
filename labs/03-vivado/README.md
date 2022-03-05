@@ -9,7 +9,7 @@
 -->
 
 ### Learning objectives
-
+ .
 After completing this lab you will be able to:
 
 * Use Vivado development tool

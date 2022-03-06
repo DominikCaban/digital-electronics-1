@@ -69,7 +69,6 @@
         assert (s_seg = "0111000")
         report "Input combination 0111000 FAILED" severity error;  
 
-
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;

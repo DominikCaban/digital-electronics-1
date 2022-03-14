@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: C:/DC_vivado_projects/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Error: Input combination 0011 and 0010 FAILED
+Time: 100 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: C:/DC_vivado_projects/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 200 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: C:/DC_vivado_projects/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd

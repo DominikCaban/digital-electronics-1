@@ -63,18 +63,16 @@ begin
     --------------------------------------------------------
     p_reset_gen : process
     begin
+    while now < 200ns loop
         s_rst <= '0'; wait for 22 ns;
-        s_rst <= '1'; wait for 32 ns;
-        s_rst <= '0'; wait for 22 ns;
-        s_rst <= '1'; wait for 32 ns;
-        s_rst <= '0'; wait for 22 ns;
-        s_rst <= '1'; wait for 32 ns;
+        s_rst <= '1'; wait for 22 ns;
+
         -- ACTIVATE AND DEACTIVATE RESET HERE
         -- wait for XXX ns;
         -- s_rst <= XXX;
         -- wait for XXX ns;
         -- s_rst <= XXX;
-
+    end loop;
         wait;
     end process p_reset_gen;
 
@@ -83,18 +81,13 @@ begin
     --------------------------------------------------------
     p_stimulus : process
     begin
+        while now < 200ns loop
         report "Stimulus process started" severity note;
-        s_data <='0'; wait for 13 ns;
-        s_data <='1'; wait for 17 ns;
-        s_data <='0'; wait for 23 ns;
-        s_data <='1'; wait for 27 ns;
-        s_data <='0'; wait for 23 ns;
-        s_data <='1'; wait for 27 ns;
-        s_data <='0'; wait for 13 ns;
-        s_data <='1'; wait for 17 ns;
-        s_data <='0'; wait for 13 ns;
-        s_data <='1'; wait for 17 ns;       
+        s_data <='0'; wait for 7 ns;
+        s_data <='1'; wait for 7 ns;
+     
         report "Stimulus process finished" severity note;
+           end loop; 
         wait;
     end process p_stimulus;
 

@@ -25,7 +25,7 @@ architecture Behavioral of top is
   -- Internal clock enable
   signal s_en  : std_logic;
   -- Internal counter
-  signal s_cnt : std_logic_vector(4 - 1 downto 0);
+  signal s_cnt : std_logic_vector(3 downto 0);
 
 begin
 

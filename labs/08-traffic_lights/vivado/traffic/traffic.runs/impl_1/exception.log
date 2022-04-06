@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file D:\Documents\xcaban01\digital-electronics-1\labs\08-traffic_lights\vivado\traffic\traffic.runs\impl_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied

@@ -87,13 +87,12 @@ begin
             when "1000" =>
                 seg_o <= "0110000"; -- E
 
-            -- WRITE YOUR CODE HERE"1001000"; -- H "1110001"; -- L
             -- 9
             when "1001" =>
                 seg_o <= "1110001"; -- L
             -- A
             when "1010" =>
-                seg_o <= "0011000"; -- P
+                seg_o <= "0011000"; -- P -- to show HELP on 7 seg display in case of error :)
             -- b
             when "1011" =>
                 seg_o <= "1111111";
